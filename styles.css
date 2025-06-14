@@ -24,8 +24,12 @@ form div {
   align-items: center;
 }
 
-form input, form label {
+form input, form label, form button {
   font-family: inherit;
   width: 290px;
   height: 1.6rem;
+}
+form button {
+  margin: auto;
+  cursor: pointer;
 }
